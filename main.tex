@@ -447,18 +447,7 @@ Since the rolling horizon approach based on dynamic programming lost its efficie
         \frac{N_1}{\mu} -1, & Otherwise
     \end{cases}
 \end{equation} \newline
-$I$ represents the number of fixed subproblems to be iterated. If $N_1 \% \mu$ is equal to zero, which means that 
-
-
-% Hence, for this BESS prediction control problem, the time complexity is:\newline
-% \begin{equation}
-%     f(n)=O(k^{N_1})
-% \end{equation}\newline
-% $k$ is a constant depending on the number of branches has been created by the branch and bound methods in the MILP model and $N_1$ represents the number of decision variables. It is significant that the actual number of decision variables is $2*N_1$ since at each time interval the energy has been divided into two parts-one for energy under peak limit, and another for excessive. This constant $2$ is ignored because it doesn't influent the time complexity. Relatively, the time complexity of the rolling horizon approach based on MILP is:\newline
-% \begin{equation}
-%     f(n)=O(k^{\mu}N_1)
-% \end{equation}\newline
-% $\mu$ is the size of the fixed subproblem which is a constant far less than the number of the time intervals or original problems' decision variables $N_1$. Since the exponential part plays a dominant role in time complexity and $\mu$ is less than $N_1$ which means $2^{\mu}$ is far less than $2^{N_1}$, the time complexity has been improved by applying rolling horizon approach to the MILP model. 
+$I$ represents the number of fixed subproblems to be iterated. If $N_1 \% \mu$ is equal to zero, which means the entire problem is divisible by the window size. Hence, apart from the last fixed subproblem with no future information to improve the quality of the solution, all previous fixed subproblems should be traversed using future information that decide $I$. Otherwise, a small size fixed subproblem will be generated and is iterated in a different way. Therefore, the number of fixed subproblems to be traversed should decrease by 1.
 
 \subsection{Rule-based Heuristic}
 The total cost is calculated by summing up the cost by following the rules at each time interval. The load and current tariff structure will be considered in the rules and the model will attempt to generate a reasonable decision at each time interval. When the load doesn't exceed the peak limit and the price level is normal, the amount of energy a battery can charge when other constraints are not considered is calculated:
@@ -502,7 +491,8 @@ For the other, the difference between the current load and the previous load is 
     Predict(t)= 
 \begin{cases}
     \text{No Charge or Discharge}, & \text{if } L_{i-23} > PL \text{ and } L_{i-22} > PL\\
-    \text{Fully Discharge}, & \text{else if } L_{i-23}<PL \text{ and } L_{i-22}<PL \\ \text{ and } L_i<0.8PL  \\
+    \text{Fully Discharge}, & \text{else if } L_{i-23}<PL \text{ and } L_{i-22}<PL \\
+                            & \text{\quad \quad and } L_i<0.8PL  \\
     \text{Limited Discharge}, & \text{else }\\
     
 \end{cases}
