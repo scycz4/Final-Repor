@@ -438,8 +438,16 @@ The running time of the rolling horizon approach based on dynamic programming:
 $N_1$ represents the number of subproblems to be solved. Since at each time the window only forward by 1 step, hence the number of subproblems only differs from the number of time intervals by a small constant which can be ignored in time complexity. It is important that the number of fixed subproblems is ignored since it is just a constant. $\mu$ represents the number of time intervals of the subproblem, $N_3$ stands for the number of states in the subproblems and $N_4$ stands for the number of the states which can be reached by each state. Hence, the total complexity can be calculated by multiplying the number of subproblems $N_1$ and the time complexity of the subproblems $O(\mu N_3N_4)$. \newline\newline
 Consequently, comparing dynamic programming and the rolling horizon approach based on dynamic programming, it is clear that applying the rolling horizon approach to dynamic programming can't improve efficiency. 
 \subsubsection{MILP}
-Since the rolling horizon approach based on dynamic programming lost its efficiency of what it should be, this project changed into another problem-specific algorithm MILP to increase the speed of running. Additionally, when implementing this rolling approach, a CPLEX jar package from IBM is imported into the project to assist the model. The worst time complexity of the MILP is usually exponential. However, the actual time complexity highly depends on other factors-the problem structure and the solver algorithm.\newline\newline
-The details of the rolling horizon approach implementation have also been changed, but the 
+Since the rolling horizon approach based on dynamic programming lost its efficiency of what it should be, this project changed into another problem-specific algorithm MILP to increase the speed of running. Additionally, when implementing this rolling approach, a CPLEX jar package from IBM is imported into the project to assist the model. The worst time complexity of the MILP is usually exponential. However, the actual time complexity highly depends on other factors-the problem structure and the solver algorithm.\newpage
+\noindent The details of the rolling horizon approach implementation has slightly changed, but the idea of the rolling horizon approach has not. Specifically, the way to determine the number of fixed subproblems to be iterated has been changed:\newline
+\begin{equation}
+    I=
+    \begin{cases}
+        \frac{N_1}{\mu} -2, & \text{if } N_1 \% \mu = 0\\
+        \frac{N_1}{\mu} -1, & Otherwise
+    \end{cases}
+\end{equation} \newline
+$I$ represents the number of fixed subproblems to be iterated. If $N_1 \% \mu$ is equal to zero, which means that 
 
 
 % Hence, for this BESS prediction control problem, the time complexity is:\newline

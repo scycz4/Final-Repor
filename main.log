@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.15)  16 APR 2023 01:20
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.15)  16 APR 2023 02:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,6 +584,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `main.toc'.
 
  [2]
+
+LaTeX Warning: Citation `price' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Citation `energycrisis' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Citation `newenergy' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `instable' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `BESSandClean' on page 3 undefined on input line 116.
+
+
+LaTeX Warning: Citation `introduction' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Citation `cheapbattery' on page 3 undefined on input line 118.
+
+
+LaTeX Warning: Citation `uktou' on page 3 undefined on input line 118.
+
+
+LaTeX Warning: Citation `whytou' on page 3 undefined on input line 118.
+
+
+LaTeX Warning: Citation `keya' on page 3 undefined on input line 119.
+
+
+LaTeX Warning: Citation `function' on page 3 undefined on input line 119.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 115--120
 
  []
@@ -614,6 +648,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--120
  []
 
 [3]
+
+LaTeX Warning: Citation `grid' on page 4 undefined on input line 121.
+
+
+LaTeX Warning: Citation `optimisation' on page 4 undefined on input line 121.
+
+
+LaTeX Warning: Citation `divya2009battery' on page 4 undefined on input line 12
+1.
+
+
+LaTeX Warning: Citation `bessgrid' on page 4 undefined on input line 121.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
@@ -639,13 +687,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--129
  []
 
 [4]
+
+LaTeX Warning: Citation `milp' on page 5 undefined on input line 135.
+
+
+LaTeX Warning: Citation `dp' on page 5 undefined on input line 137.
+
+
+LaTeX Warning: Citation `pdp2' on page 5 undefined on input line 137.
+
+
+LaTeX Warning: Citation `rolling' on page 5 undefined on input line 140.
+
+
+LaTeX Warning: Citation `rule' on page 5 undefined on input line 142.
+
+
+LaTeX Warning: Citation `anotherRule' on page 5 undefined on input line 143.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 [5]
+
+LaTeX Warning: Citation `evaluation' on page 6 undefined on input line 146.
+
+
+LaTeX Warning: Citation `degradation' on page 6 undefined on input line 148.
+
+
+LaTeX Warning: Citation `linear' on page 6 undefined on input line 148.
+
+
+LaTeX Warning: Citation `lifecycle' on page 6 undefined on input line 148.
+
 File: tariff.png Graphic file (type bmp)
 <tariff.png>
+
+LaTeX Warning: Citation `milp' on page 6 undefined on input line 156.
+
+
+LaTeX Warning: Citation `milp' on page 6 undefined on input line 156.
+
 File: afterTheModel.png Graphic file (type bmp)
 <afterTheModel.png>
 
@@ -656,6 +741,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--164
 [6] [7]
 File: BranchBound.png Graphic file (type bmp)
 <BranchBound.png>
+
+
+LaTeX Warning: Citation `milp' on page 8 undefined on input line 195.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
@@ -692,11 +781,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--205
 File: DPSolving.jpg Graphic file (type bmp)
 <DPSolving.jpg>
 [9]
+
+LaTeX Warning: Citation `dp' on page 10 undefined on input line 215.
+
 File: timeConstraint.png Graphic file (type bmp)
 <timeConstraint.png>
- [10]
+[10]
 File: rolling.png Graphic file (type bmp)
 <rolling.png>
+
+
+LaTeX Warning: Citation `rolling' on page 11 undefined on input line 231.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
@@ -708,8 +804,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--232
  []
 
 [11]
+
+LaTeX Warning: Citation `rolling' on page 12 undefined on input line 234.
+
 File: improvedrolling.png Graphic file (type bmp)
 <improvedrolling.png>
+
+LaTeX Warning: Citation `rule' on page 12 undefined on input line 246.
+
 File: myflowchart.jpg Graphic file (type bmp)
 <myflowchart.jpg>
 
@@ -803,115 +905,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
+
+LaTeX Warning: Citation `rolling' on page 18 undefined on input line 400.
+
 [18]
+
+LaTeX Warning: Citation `rolling' on page 19 undefined on input line 427.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
-
- []
-
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 459--462
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--467
+Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--472
+Underfull \hbox (badness 10000) in paragraph at lines 472--475
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--477
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 490--493
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--493
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
-[21] (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-[]\TU/lmr/m/n/10 Executive summary – Electricity Market Report - July 2022 – An
-alysis.
- []
+[21]
+No file main.bbl.
+(main.aux)
 
+LaTeX Warning: There were undefined references.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\TU/lmr/m/n/10 https://www.iea.org/reports/electricity-market-report-july-2022/
-executive-summary, January
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-[]\TU/lmr/m/n/10 The price of batteries has declined by 97% in the last three d
-ecades.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-[]\TU/lmr/m/n/10 Nigel Charig.  BESS: These factors are driving the growing dem
-and.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-\TU/lmr/m/n/10 https://www.power-and-beyond.com/bess-these-factors-are-driving-
-the-growing-demand-a-
- []
-
-[22]
-Missing character: There is no ᐅ in font [lmroman10-regular]:mapping=tex-text;!
-) [23] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14789 strings out of 411472
- 237237 string characters out of 5825369
+ 14759 strings out of 411472
+ 236884 string characters out of 5825369
  1864012 words of memory out of 5000000
- 34810 multiletter control sequences out of 15000+600000
- 514466 words of font info for 56 fonts, out of 8000000 for 9000
+ 34784 multiletter control sequences out of 15000+600000
+ 514458 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,14n,91p,1879b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (24 pages).
+Output written on main.pdf (22 pages).
