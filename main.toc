@@ -1,0 +1,35 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Motivation}{4}{section.2}%
+\contentsline {section}{\numberline {3}Related Work}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Exact Algorithm}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Mixed Integer Linear Programming}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Dynamic Programming}{5}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Heuristic}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Rolling Horizon Approach}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Rule Based Heuristic}{5}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Evaluation Method}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Extended}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Description of the work}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problem}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Model}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Objective and Aim}{8}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Methodology}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}MILP}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Dynamic Programming}{9}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Pruning Strategies}{10}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Rolling Horizon Approach}{11}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Improved Rolling Horizon Approach}{12}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Rule-based Heuristic}{12}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Rule-based Heuristic with Prediction}{14}{subsubsection.5.4.1}%
+\contentsline {section}{\numberline {6}Implementation}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}MILP}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Dynamic Programming}{16}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Pruning Strategies}{18}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}Rolling Horizon Approach}{18}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Dynamic Programming}{19}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}MILP}{19}{subsubsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.4}Rule-based Heuristic}{20}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Rule-based Heuristic with Prediction}{20}{subsubsection.6.4.1}%
+\contentsline {section}{\numberline {7}Evaluation}{21}{section.7}%
+\contentsline {section}{References}{21}{section.7}%
