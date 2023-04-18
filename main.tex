@@ -29,7 +29,7 @@
 
 \usepackage{algorithm,algpseudocode,float}
 \usepackage{lipsum}
-
+% \usepackage{subfigure,subcaption}
 %\newcolumntype{L}{>{\raggedright\arraybackslash}X}
 \makeatletter
 \newenvironment{breakablealgorithm}
@@ -321,7 +321,7 @@ Dynamic programming will divide the battery into different states and each state
  
  \hline
 \end{tabular}
-\caption{\label{demo-table}The additional symbols appear in the DP}
+\caption{\label{demo-table1}The additional symbols appear in the DP}
 \end{table}\noindent
 The user sets the number of states $N_3$ and the difference $D$ between two neighboring states can be calculated by dividing the battery capacity $B_{max}$ by the number of states $N_3$. After calculating the difference $D$, the maximum number of the states $N_4$ is calculated by rounding off the decimal part of the result of dividing the maximum input and output power $Po$ by the difference $D$.
 
@@ -519,11 +519,42 @@ Apart from the parameters from the problem, different algorithms also have diffe
 Another kind of approach called Rolling horizon has two hyperparameters $\mu$ and $\varepsilon$. $\mu$ manipulates the window size (the fixed subproblem size) which stands for how much future information can be used. $\varepsilon$ is the tolerance for the current solution and the model can accept a worsen solution if $\varepsilon$ increases. However, to reduce the running time of the entire comparison, only the hyperparameter $\mu$ is tuned because the problem studied by this project is a time series problem and the instance shows periodic features. Hence, the size of the window $\mu$ has a greater impact on the solution quality which increases the model's ability to find and exploit this pattern.
 \subsubsection{Datasets}
 The testing datas  generated from one original large dataset. Though there are gaps in the original dataset, the missing data in question are only for one or multiple periods and their absence does not affect the regularity of the remaining data, even if they are not filled or removed.\newline\newline
-Based on the original dataset,  different size of the dataset has been created to test different algorithms' performance on different size of the data. As a consequent, the best approach for small dataset and large dataset will be discussed. 
+Based on the original dataset,  different size of the dataset has been created to test different algorithms' performance on different size of the data. As a consequent, the best approach for small dataset and large dataset will be discussed. There will be 20 different data for each size of the dataset.
 \section{Result}
-To compare different algorithms in-depth, several criteria has been chosen to evaluate these algorithms-percentages of global optimal, success rate, running time and memory usage. Furthermore, the performance of thr rolling horizon approach with different hyperparameter $\mu$ will be compared with each other. For each combination of algorithm, hyperparameter and size of the dataset, the algorithm will run twenty times for different data on the same size. When comparing these algorithms, the average of these results will be calculated and used. 
+To compare different algorithms in-depth, several criteria has been chosen to evaluate these algorithms-percentages of global optimal, success rate, running time and memory usage. Furthermore, the performance of thr rolling horizon approach with different hyperparameter $\mu$ will be compared with each other. For each combination of algorithm, hyperparameter and size of the dataset, the algorithm will run twenty times for different data on the same size. When comparing these algorithms, the average of these results will be calculated and used. \newline\newline
+%这里加参数配置的信息：电池大小，输出功率等等
 \subsection{Percentage of Global Solution Found}
-www
+When comparing the percentage of global solution found by the algorithms, only the cost of the solution is exactly same as the global optimal determined by the MILP and the dynamic programming can algorithm say that they have found the optimal solution. The percentage of global solution found by the algorithms is calculated by the number of the minimum cost divided by the number of the data at this size. 
+\begin{figure*}[h]
+    \captionsetup[subfigure]{justification=centering}
+	\begin{subfigure}[b]{0.5\textwidth}
+	\centering
+	\includegraphics[width =\textwidth]{DP vs PDP vs RDP global.png}
+	\caption{DP, Pruned DP and Improved Rolling DP}
+	\label{fig:label1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.5\textwidth}
+	\centering
+	\includegraphics[width = \textwidth]{milp vs rMILP global.png}
+	\caption{MILP and basic Rolling MILP}
+	\label{fig:label2}
+	\end{subfigure}
+	\hfill\\
+	\begin{subfigure}[b]{0.5\textwidth}
+	\centering
+	\includegraphics[width = 1\textwidth]{Rule vs Rule with Prediction global.png}
+	\caption{Rule and Rule with Prediction}
+	\label{fig:label3}
+	\end{subfigure}
+\caption{The running time across all algorithms}
+\label{fig:label}
+\end{figure*}
+It is obviously that the MILP can always find the best solution regardless of the size or the data of the dataset. For other algorithms, as the size of the data increases, it is hard for them to find the global optimal solution. However, among these algorithms, dynamic programming and basic rolling MILP exhibit the best performance in handling increasingly larger datasets. Even if the size of the dataset increases to 10000, the percentage of the found global optimal solution is above 30\%. \newline\newline
+Additionally, after applying pruning strategies to the dynamic programming, the ability to find the global optimal solution goes down but still performs better than the remaining algorithms. Nevertheless, the improved rolling horizon based on dynamic programming is the worst algorithms, even worsen than the rule-based heuristic. The percent of the global optima found by this approach is always less than 10\%, which means that despite of the size of the dataset, the solution found by algorithm deviates from the global optima. \newline\newline
+The performance of the rule-based heuristic and the rule with prediction component is roughly the same. However, when the dataset size is small, the prediction component can improve the rule heuristic. When the dataset size grows, the prediction component has a diminishing role to play. 
+
+
 \subsection{Success Rate}
 
 \subsection{Running Time}
