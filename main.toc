@@ -1,0 +1,58 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Motivation}{5}{section.2}%
+\contentsline {section}{\numberline {3}Related Work}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Exact Algorithm}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Mixed Integer Linear Programming}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Dynamic Programming}{6}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Heuristic}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Rolling Horizon Approach}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Rule Based Heuristic}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Evaluation Method}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Extended}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Description of the work}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problem}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Model}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Objective and Aim}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Methodology}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}MILP}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Dynamic Programming}{10}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Pruning Strategies}{11}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Rolling Horizon Approach}{12}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Improved Rolling Horizon Approach}{12}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Rule-based Heuristic}{14}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Rule-based Heuristic with Prediction}{16}{subsubsection.5.4.1}%
+\contentsline {section}{\numberline {6}Implementation}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}MILP}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Dynamic Programming}{18}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Pruning Strategies}{20}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}Rolling Horizon Approach}{20}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Dynamic Programming}{21}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}MILP}{21}{subsubsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.4}Rule-based Heuristic}{22}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Rule-based Heuristic with Prediction}{23}{subsubsection.6.4.1}%
+\contentsline {section}{\numberline {7}Evaluation}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Regression Test and T-Test}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Discrete variables and continuous variables}{24}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Model and Data}{25}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Parameters}{25}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Datasets}{25}{subsubsection.7.3.2}%
+\contentsline {section}{\numberline {8}Result}{26}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Percentage of Global Solution Found}{26}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}T-Test}{27}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Discussion}{27}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Success Rate}{28}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Discussion}{29}{subsubsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.3}Runtime}{29}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Discussion}{30}{subsubsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.4}Memory Usage}{31}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}Discussion}{31}{subsubsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.5}Hyperparameter of the Rolling Horizon Approach}{32}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Conclusion and Future Direction}{33}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Conclusion}{33}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Future direction}{34}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Reflections}{34}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Project Management}{34}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Contribution and Reflection}{35}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}LSEPI}{35}{subsubsection.10.2.1}%
+\contentsline {section}{References}{35}{subsubsection.10.2.1}%
