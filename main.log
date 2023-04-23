@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.16)  22 APR 2023 21:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.16)  23 APR 2023 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (d:/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(d:/texlive/2023/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(d:/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -552,12 +552,12 @@ LaTeX Font Info:    ... okay on input line 68.
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
 * \marginparwidth=49.79231pt
-* \marginparsep=11.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -595,232 +595,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[1] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+[2] (./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2])
+) [3])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
 
  []
 
 [6]
-File: tariff.png Graphic file (type bmp)
-<tariff.png>
-File: afterTheModel.png Graphic file (type bmp)
-<afterTheModel.png>
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--167
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+File: tariff.png Graphic file (type bmp)
+<tariff.png>
+[9]
+File: afterTheModel.png Graphic file (type bmp)
+<afterTheModel.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--173
+
+ []
+
+[10]
 File: BranchBound.png Graphic file (type bmp)
 <BranchBound.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-[9]
+[12]
 File: dp.png Graphic file (type bmp)
 <dp.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
-
- []
-
 File: DPSolving.jpg Graphic file (type bmp)
 <DPSolving.jpg>
-[10]
+ [13]
 File: timeConstraint.png Graphic file (type bmp)
 <timeConstraint.png>
- [11]
+ [14]
 File: rolling.png Graphic file (type bmp)
 <rolling.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
 File: rollingdivision.png Graphic file (type bmp)
 <rollingdivision.png>
-[12]
+[15]
 File: improvedoverlapper.png Graphic file (type bmp)
 <improvedoverlapper.png>
 File: uselessintersect.png Graphic file (type bmp)
 <uselessintersect.png>
+ [16]
 File: improvedworks.png Graphic file (type bmp)
 <improvedworks.png>
- [13]
 File: improvedrolling.png Graphic file (type bmp)
 <improvedrolling.png>
+ [17]
 File: myflowchart.jpg Graphic file (type bmp)
 <myflowchart.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--279
-
- []
-
-[14] [15]
-File: RulewithPrediction.png Graphic file (type bmp)
-<RulewithPrediction.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 279--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--354
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--354
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--354
+Underfull \hbox (badness 10000) in paragraph at lines 279--286
 
  []
 
 [18]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 358.
+File: RulewithPrediction.png Graphic file (type bmp)
+<RulewithPrediction.png>
  [19]
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
 [20]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 450--451
-[] [] 
+Overfull \hbox (24.29152pt too wide) in paragraph at lines 304--322
+[][] 
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 451--453
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--480
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 486--489
+Underfull \hbox (badness 10000) in paragraph at lines 338--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--496
+Underfull \hbox (badness 10000) in paragraph at lines 338--342
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 338--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--359
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
+
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 363.
+[23]
+Overfull \hbox (27.70699pt too wide) in paragraph at lines 420--435
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
+
+ []
+
+[24]
+Overfull \hbox (15.09073pt too wide) in paragraph at lines 441--442
+[]\TU/lmr/m/n/10.95 A sequence of minimization problem $\OML/cmm/m/it/10.95 Problem; windowSize < N[]; rateOfDeviation >
+ []
+
+
+Overfull \hbox (1.7318pt too wide) in paragraph at lines 450--451
+[] \TU/lmr/m/n/10.95 s.t. $\OML/cmm/m/it/10.95 solution[] \OMS/cmsy/m/n/10.95 ^^T \OT1/cmr/m/n/10.95 (1 + \OML/cmm/m/it/10.95 rateOfDeviation\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 optimal[]$ 
+ []
+
+
+Overfull \hbox (32.84998pt too wide) in paragraph at lines 455--456
+[] [] 
+ []
+
+
+Overfull \hbox (32.84998pt too wide) in paragraph at lines 456--458
+[] [] 
+ []
+
+
+Overfull \hbox (4.6532pt too wide) in paragraph at lines 465--467
+\TU/lmr/m/n/10.95 The algorithm shown above represents the improved rolling horizon approach. $\OMS/cmsy/m/n/10.95 b[]c[]$
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 479--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--494
+
+ []
+
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
@@ -830,82 +830,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--506
 
  []
 
-[22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 508--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--517
+Underfull \hbox (badness 10000) in paragraph at lines 513--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--517
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--517
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--517
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--527
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 529--532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--527
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 536--538
+Underfull \hbox (badness 10000) in paragraph at lines 529--532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--546
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--546
+Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--550
+Underfull \hbox (badness 10000) in paragraph at lines 552--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--550
+Underfull \hbox (badness 10000) in paragraph at lines 552--555
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 555--558
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--558
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 560--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--561
+Underfull \hbox (badness 10000) in paragraph at lines 560--563
 
  []
 
-[25]
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 564--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--589
+
+ []
+
 File: DP vs PDP vs RDP global.png Graphic file (type bmp)
 <DP vs PDP vs RDP global.png>
 File: milp vs rMILP global.png Graphic file (type bmp)
@@ -913,42 +922,47 @@ File: milp vs rMILP global.png Graphic file (type bmp)
 File: Rule vs Rule with Prediction global.png Graphic file (type bmp)
 <Rule vs Rule with Prediction global.png>
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 588--608
+Overfull \hbox (2.4309pt too wide) in paragraph at lines 595--615
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--608
+Underfull \hbox (badness 10000) in paragraph at lines 595--615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--610
+Underfull \hbox (badness 10000) in paragraph at lines 592--617
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 618--621
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--614
+Underfull \hbox (badness 10000) in paragraph at lines 618--621
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--614
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 615--633
+Underfull \hbox (badness 10000) in paragraph at lines 622--641
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--636
+Underfull \hbox (badness 10000) in paragraph at lines 622--641
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 642--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
+Underfull \hbox (badness 10000) in paragraph at lines 645--647
 
  []
 
@@ -959,35 +973,36 @@ File: basic MILP vs MILP success rate.png Graphic file (type bmp)
 File: rule vs rule prediction success rate.png Graphic file (type bmp)
 <rule vs rule prediction success rate.png>
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 644--664
+Overfull \hbox (2.4309pt too wide) in paragraph at lines 652--672
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--664
+Underfull \hbox (badness 10000) in paragraph at lines 652--672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--666
+Underfull \hbox (badness 10000) in paragraph at lines 649--674
 
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 670--673
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 675--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--673
+Underfull \hbox (badness 10000) in paragraph at lines 678--681
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--681
+
+ []
+
+[34]
 File: DP vs Pruned DP running time.png Graphic file (type bmp)
 <DP vs Pruned DP running time.png>
 File: Rule vs Rule with Prediction Running time.png Graphic file (type bmp)
@@ -995,32 +1010,32 @@ File: Rule vs Rule with Prediction Running time.png Graphic file (type bmp)
 File: basic Rolling MILP vs MILP running time.png Graphic file (type bmp)
 <basic Rolling MILP vs MILP running time.png>
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 676--696
+Overfull \hbox (2.4309pt too wide) in paragraph at lines 684--704
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--696
+Underfull \hbox (badness 10000) in paragraph at lines 684--704
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 699--702
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 699--702
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 707--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--706
+Underfull \hbox (badness 10000) in paragraph at lines 707--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--706
+Underfull \hbox (badness 10000) in paragraph at lines 711--714
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 711--714
 
  []
 
@@ -1031,171 +1046,167 @@ File: basic Rolling MILP vs MILP vs Improved DP memory.png Graphic file (type bm
 File: Rule vs Rule with Prediction memory.png Graphic file (type bmp)
 <Rule vs Rule with Prediction memory.png>
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 709--729
+Overfull \hbox (2.4309pt too wide) in paragraph at lines 717--737
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--729
+Underfull \hbox (badness 10000) in paragraph at lines 717--737
 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 732--736
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 732--736
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 740--744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--739
+Underfull \hbox (badness 10000) in paragraph at lines 740--744
 
  []
 
-[31]
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--747
+
+ []
+
+[37]
 File: parameter tuning success rate.png Graphic file (type bmp)
 <parameter tuning success rate.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--766
+Underfull \hbox (badness 10000) in paragraph at lines 768--775
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 768--775
+
+ []
+
+[38]
 File: parameter tuning running time.png Graphic file (type bmp)
 <parameter tuning running time.png>
 File: parameter tuning memory.png Graphic file (type bmp)
 <parameter tuning memory.png>
 
-Overfull \hbox (2.21999pt too wide) in paragraph at lines 771--785
+Overfull \hbox (2.4309pt too wide) in paragraph at lines 779--793
 [][]  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--785
+Underfull \hbox (badness 10000) in paragraph at lines 779--793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--785
+Underfull \hbox (badness 10000) in paragraph at lines 799--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--787
-
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 791--796
+Underfull \hbox (badness 10000) in paragraph at lines 799--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--796
+Underfull \hbox (badness 10000) in paragraph at lines 799--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--796
+Underfull \hbox (badness 10000) in paragraph at lines 799--804
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 807--811
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--796
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 799--803
+Underfull \hbox (badness 10000) in paragraph at lines 807--811
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--803
+Underfull \hbox (badness 10000) in paragraph at lines 807--811
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 814--817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--803
+Underfull \hbox (badness 10000) in paragraph at lines 814--817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--809
+Underfull \hbox (badness 10000) in paragraph at lines 818--820
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 821--826
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--809
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
+Underfull \hbox (badness 10000) in paragraph at lines 821--826
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--818
+Underfull \hbox (badness 10000) in paragraph at lines 821--826
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--818
+Underfull \hbox (badness 10000) in paragraph at lines 821--826
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 813--818
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 813--818
-
- []
-
-[35] (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\TU/lmr/m/n/10 Executive summary – Electricity Market Report - July 2022 – Analysis.
+[42] (./main.bbl
+Underfull \hbox (badness 7273) in paragraph at lines 4--6
+[]\TU/lmr/m/n/10.95 Executive summary – Electricity Market Report - July 2022 – Analysis.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
-\TU/lmr/m/n/10 https://www.iea.org/reports/electricity-market-report-july-2022/executive-summary, January
+\TU/lmr/m/n/10.95 https://www.iea.org/reports/electricity-market-report-july-2022/executive-summary,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-[]\TU/lmr/m/n/10 The price of batteries has declined by 97% in the last three decades.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
-[]\TU/lmr/m/n/10 Nigel Charig.  BESS: These factors are driving the growing demand.
+Underfull \hbox (badness 7704) in paragraph at lines 8--10
+[]\TU/lmr/m/n/10.95 The price of batteries has declined by 97% in the last three decades.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--44
-\TU/lmr/m/n/10 https://www.power-and-beyond.com/bess-these-factors-are-driving-the-growing-demand-a-
+[]\TU/lmr/m/n/10.95 Nigel Charig.  BESS: These factors are driving the growing demand.
  []
 
-[36]
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+\TU/lmr/m/n/10.95 https://www.power-and-beyond.com/bess-these-factors-are-driving-the-growing-
+ []
+
+[43]
 Missing character: There is no ᐅ (U+1405) in font [lmroman10-regular]:mapping=tex-text;!
-) [37] (./main.aux)
+) [44] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15105 strings out of 476675
- 251876 string characters out of 5807326
- 1865290 words of memory out of 5000000
- 35073 multiletter control sequences out of 15000+600000
- 514466 words of font info for 56 fonts, out of 8000000 for 9000
+ 15124 strings out of 476675
+ 252022 string characters out of 5807326
+ 1863290 words of memory out of 5000000
+ 35086 multiletter control sequences out of 15000+600000
+ 518060 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,14n,91p,1876b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,91p,1876b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (38 pages).
+Output written on main.pdf (45 pages).
